@@ -1,0 +1,16 @@
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.demo2.MainController">
+    <top>
+        <MenuBar>
+            <Menu text="Git">
+                <MenuItem fx:id="gitResetMenuItem" text="Git Reset"/>
+                <MenuItem fx:id="gitRevertMenuItem" text="Git Revert"/>
+            </Menu>
+        </MenuBar>
+    </top>
+</BorderPane>
